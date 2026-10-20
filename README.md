@@ -1,6 +1,8 @@
-# Chirag Kumar — AI Engineer portfolio
+# Chirag Kumar — AI & Automation Engineer Portfolio
 
-A responsive, buildless portfolio with inline project video players. This repository is separate from the applications it showcases. It does not contain their source code.
+A responsive engineering portfolio showcasing applied AI, enterprise workflow automation, Azure data engineering, and product development. Featured work includes Microsoft-engagement remediation workflows, an Azure Data Factory / Azure DevOps CI/CD walkthrough, a Databricks lakehouse proof of concept, the Condux white-label bus-ticketing product, and a developing enterprise knowledge assistant.
+
+This repository hosts the public portfolio, not the source code of the client or application projects it describes. Demos are published only after reviewing them for sensitive details.
 
 ## Run locally
 
@@ -10,9 +12,13 @@ python -m http.server 8001 --directory dist
 
 Open http://localhost:8001. No package installation or API keys required.
 
+## Featured Azure data engineering walkthrough
+
+**Customer Analytics Lakehouse** covers Azure Data Factory orchestration, Azure DevOps CI/CD concepts for Data Factory changes, and Databricks/PySpark Bronze–Silver–Gold transformations. The project's portfolio card is configured in `dist/content.js`. Its reviewed ADF/CI/CD recording has **not yet been committed or linked**, so the card correctly does not advertise a playable demo. The walkthrough is an engineering demonstration, not a claim that cloud deployment was independently verified.
+
 ## Add the actual demo videos
 
-Edit `dist/content.js`. Each project's `video` defaults to `null`; the site honestly displays that the demo will be added. It does not display a fake play button.
+Edit `dist/content.js`. Projects without a published recording use `video: null`, and the site honestly displays that the demo will be added. Condux already has an MP4 configured. It does not display a fake play button.
 
 For an unlisted YouTube video with embedding enabled:
 
@@ -22,7 +28,7 @@ video: { type: 'youtube', id: 'YOUR_11_CHARACTER_VIDEO_ID' }
 
 Replace the example string with the actual ID from your video URL. The video plays directly on the page. YouTube loads only after the visitor clicks Watch demo. An unlisted video can be shared by anyone with its link.
 
-For a small compressed MP4:
+For a small, reviewed, compressed MP4:
 
 ```js
 video: { type: 'mp4', src: 'assets/condux-demo.mp4' }
@@ -38,10 +44,9 @@ Application source repositories are not linked by default. The only default GitH
 
 ## Deploy on Vercel
 
-1. Create a personal GitHub repository named `portfolio` and push these files.
-2. Import that repository in Vercel.
-3. Select Other for the framework, leave build command empty, and set output directory to `dist`.
-4. Deploy using the free personal Hobby plan, subject to its current terms and limits.
+1. Import this GitHub repository into Vercel (or use its existing Vercel project).
+2. Select Other for the framework, leave the build command empty, and set the output directory to `dist`.
+3. Deploy from the `main` branch, using the appropriate Vercel plan.
 
 `vercel.json` records the static output directory. No database, credentials, or backend are needed. A separate private Sites preview may also be created; its hosting identity is not required for Vercel.
 
@@ -54,4 +59,4 @@ Application source repositories are not linked by default. The only default GitH
 
 ## Verification
 
-Run `node --check dist/app.js` and `node --check dist/content.js`. Browser checks cover desktop/mobile layout, project filtering, keyboard navigation, and video behavior with a test configuration. Real video playback requires the owner's actual video URL, which is not yet supplied.
+Run `node --check dist/app.js` and `node --check dist/content.js`. Browser checks cover desktop/mobile layout, project filtering, keyboard navigation, and video behavior with a test configuration. Condux's committed MP4 is configured for playback. The ADF/CI/CD demo requires its reviewed final file or hosted video URL before publication.
