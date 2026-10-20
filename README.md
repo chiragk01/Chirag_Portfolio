@@ -1,62 +1,55 @@
-# Chirag Kumar — AI & Automation Engineer Portfolio
+# Chirag Kumar | AI & Automation Engineer
 
-A responsive engineering portfolio showcasing applied AI, enterprise workflow automation, Azure data engineering, and product development. Featured work includes Microsoft-engagement remediation workflows, an Azure Data Factory / Azure DevOps CI/CD walkthrough, a Databricks lakehouse proof of concept, the Condux white-label bus-ticketing product, and a developing enterprise knowledge assistant.
+**Building practical AI systems, enterprise automation workflows, data pipelines, and software products.**
 
-This repository hosts the public portfolio, not the source code of the client or application projects it describes. Demos are published only after reviewing them for sensitive details.
+[**Live Portfolio**](https://chirag-portfolio-gules.vercel.app/) · [**LinkedIn**](https://www.linkedin.com/in/chirag-kumar-b5818b265/) · [**GitHub**](https://github.com/chiragk01)
 
-## Run locally
+---
 
-```bash
-python -m http.server 8001 --directory dist
-```
+## About Me
 
-Open http://localhost:8001. No package installation or API keys required.
+I'm an AI & Automation Engineer at **LTIMindtree**, working on engineering automation and AI-assisted security remediation for a Microsoft client engagement. My work spans agent workflows, dependency and vulnerability remediation, software validation, and pull-request automation.
 
-## Featured Azure data engineering walkthrough
+Beyond enterprise engineering, I build projects in **Azure data engineering, retrieval-based AI applications, and product development**. This portfolio brings together selected professional experience, personal projects, and video demonstrations.
 
-**Customer Analytics Lakehouse** covers Azure Data Factory orchestration, Azure DevOps CI/CD concepts for Data Factory changes, and Databricks/PySpark Bronze–Silver–Gold transformations. The project's portfolio card is configured in `dist/content.js`. A separate **Azure Data Factory CI/CD with Azure DevOps** project card documents Git integration, repository configuration, service connections, variable groups and deployment pipeline setup. The approved, professionally reviewed recording is committed at `dist/assets/adf-devops-professional-review.mp4` and linked for inline playback in the dedicated project card. The walkthrough is an engineering demonstration, not a claim that cloud deployment was independently verified.
+## Professional Experience
 
-## Add the actual demo videos
+**AI & Automation Engineer — LTIMindtree | Microsoft client engagement**
 
-Edit `dist/content.js`. Projects without a published recording use `video: null`, and the site honestly displays that the demo will be added. Condux already has an MP4 configured. It does not display a fake play button.
+- **OSS dependency remediation:** Agent-assisted investigation and upgrades of vulnerable NuGet/npm dependencies, with build validation and pull-request preparation.
+- **CodeQL remediation:** Workflows that consume existing security findings, apply targeted code fixes, and validate changes before review.
+- **S360 vulnerability workflows:** AI-assisted investigation and coordination of remediation for reported security issues.
+- **Orchestration:** Connecting issue intake, remediation, build checks, and pull-request workflows with controlled validation steps.
 
-For an unlisted YouTube video with embedding enabled:
+*Descriptions are high-level; confidential client source code and internal operational details are not included.*
 
-```js
-video: { type: 'youtube', id: 'YOUR_11_CHARACTER_VIDEO_ID' }
-```
+## Featured Projects
 
-Replace the example string with the actual ID from your video URL. The video plays directly on the page. YouTube loads only after the visitor clicks Watch demo. An unlisted video can be shared by anyone with its link.
+| Project | What it demonstrates | Status |
+| --- | --- | --- |
+| **Azure Data Factory CI/CD with Azure DevOps** | ADF Git integration, repository configuration, service connections, variable groups, and CI/CD deployment-pipeline setup. [Watch on portfolio](https://chirag-portfolio-gules.vercel.app/#work) | Learning / POC · Video available |
+| **Customer Analytics Lakehouse** | Azure Data Factory orchestration and Azure Databricks/PySpark Bronze–Silver–Gold data transformations, with Delta Lake analytics. | Learning / POC |
+| **Condux** | A white-label bus-ticketing application with conductor and admin workflows, Firebase integration, and client-specific branding. [Watch on portfolio](https://chirag-portfolio-gules.vercel.app/#work) | In production · Video available |
+| **Enterprise Knowledge Assistant** | Local-first retrieval with document ingestion, BM25 search, source citations, and an evolving knowledge-assistant API. | In development |
 
-For a small, reviewed, compressed MP4:
+The ADF/DevOps recording is a **learning demonstration**, not a claim of a production CI/CD deployment. Project statuses reflect the scope presented in the portfolio.
 
-```js
-video: { type: 'mp4', src: 'assets/condux-demo.mp4' }
-```
+## Technologies
 
-Place the file in `dist/assets/`. For larger videos, use dedicated video hosting rather than serving large files through a free website plan. Add captions to the hosted video.
+**AI & automation:** Python, agent workflows, LLM applications, FastAPI, MCP, security-remediation automation
 
-## Contact and resume
+**Cloud & data:** Azure, Azure Data Factory, Azure DevOps, Azure Databricks, PySpark, Delta Lake, ADLS
 
-Set `email`, `linkedIn`, and `resume` in `dist/content.js` to verified values. They are omitted from the interface while unset; the GitHub profile link works now. For a resume, put a sanitized PDF in `dist/assets/` and set `resume: 'assets/resume.pdf'`.
+**Development & delivery:** Git, CI/CD, Docker, APIs, Firebase, JavaScript
 
-Application source repositories are not linked by default. The only default GitHub link is the owner's profile. Review every public claim and recording before sharing publicly.
+## Portfolio Website
 
-## Deploy on Vercel
+The portfolio is a responsive, static website deployed through **Vercel** from this GitHub repository. It features professional experience, filterable project cards, inline video demos, contact links, and a downloadable resume.
 
-1. Import this GitHub repository into Vercel (or use its existing Vercel project).
-2. Select Other for the framework, leave the build command empty, and set the output directory to `dist`.
-3. Deploy from the `main` branch, using the appropriate Vercel plan.
+**[Explore the live portfolio →](https://chirag-portfolio-gules.vercel.app/)**
 
-`vercel.json` records the static output directory. No database, credentials, or backend are needed. A separate private Sites preview may also be created; its hosting identity is not required for Vercel.
+This repository contains the **portfolio website**, not the private source code of the enterprise/client systems or standalone products it showcases.
 
-## Files
+---
 
-- `dist/index.html`: content sections and accessible page structure.
-- `dist/styles.css`: responsive design and reduced-motion support.
-- `dist/content.js`: project descriptions, video/contact configuration.
-- `dist/app.js`: safe DOM rendering, video playback, filtering.
-
-## Verification
-
-Run `node --check dist/app.js` and `node --check dist/content.js`. Browser checks cover desktop/mobile layout, project filtering, keyboard navigation, and video behavior with a test configuration. Condux's committed MP4 is configured for playback. The approved ADF/CI/CD demo is published in the repository and configured for inline playback. Do not replace it with the unredacted original.
+*Designed to showcase engineering work through clear explanations, practical outcomes, and working demonstrations.*
