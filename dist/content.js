@@ -19,6 +19,16 @@ window.portfolioContent = {
     },
 
     {
+      name: 'Azure Data Factory CI/CD with Azure DevOps', category: 'data', categoryLabel: 'Data engineering',
+      status: 'Learning / POC', stageLabel: 'SOURCE CONTROL · CI/CD · DEPLOYMENT',
+      description: 'A hands-on learning walkthrough of source-controlled Azure Data Factory development and CI/CD using Azure DevOps.',
+      contribution: 'Demonstrated Data Factory Git integration and repository configuration, then walked through Azure DevOps service connections, variable groups, and deployment pipeline setup.',
+      focus: 'Shows how ADF changes move from a development workflow toward controlled deployment. This is a demonstration of configuration and delivery concepts, not a claim of production deployment.',
+      tags: ['Azure Data Factory', 'Azure DevOps', 'Git integration', 'CI/CD', 'Deployment pipelines'],
+      video: null,
+      link: null, linkLabel: null
+    },
+    {
       name: 'Condux', category: 'product', categoryLabel: 'Product engineering',
       status: 'In production', stageLabel: 'BUS TICKETING · WHITE LABEL',
       description: 'A bus-ticketing application with conductor and admin workflows, designed to support independently branded client applications.',
