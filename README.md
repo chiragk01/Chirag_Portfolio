@@ -14,7 +14,7 @@ Open http://localhost:8001. No package installation or API keys required.
 
 ## Featured Azure data engineering walkthrough
 
-**Customer Analytics Lakehouse** covers Azure Data Factory orchestration, Azure DevOps CI/CD concepts for Data Factory changes, and Databricks/PySpark Bronze–Silver–Gold transformations. The project's portfolio card is configured in `dist/content.js`. Its reviewed ADF/CI/CD recording has **not yet been committed or linked**, so the card correctly does not advertise a playable demo. The walkthrough is an engineering demonstration, not a claim that cloud deployment was independently verified.
+**Customer Analytics Lakehouse** covers Azure Data Factory orchestration, Azure DevOps CI/CD concepts for Data Factory changes, and Databricks/PySpark Bronze–Silver–Gold transformations. The project's portfolio card is configured in `dist/content.js`. A separate **Azure Data Factory CI/CD with Azure DevOps** project card documents Git integration, repository configuration, service connections, variable groups and deployment pipeline setup. The approved professional-reviewed 5m18s recording is available locally but **has not yet been hosted or linked**, so the card correctly does not advertise a playable demo. The walkthrough is an engineering demonstration, not a claim that cloud deployment was independently verified.
 
 ## Add the actual demo videos
 
@@ -59,4 +59,4 @@ Application source repositories are not linked by default. The only default GitH
 
 ## Verification
 
-Run `node --check dist/app.js` and `node --check dist/content.js`. Browser checks cover desktop/mobile layout, project filtering, keyboard navigation, and video behavior with a test configuration. Condux's committed MP4 is configured for playback. The ADF/CI/CD demo requires its reviewed final file or hosted video URL before publication.
+Run `node --check dist/app.js` and `node --check dist/content.js`. Browser checks cover desktop/mobile layout, project filtering, keyboard navigation, and video behavior with a test configuration. Condux's committed MP4 is configured for playback. The ADF/CI/CD demo requires uploading the approved reviewed MP4 to `dist/assets/adf-devops-professional-review.mp4` (or using a compatible hosted video URL) and then updating only the dedicated CI/CD project card’s `video` field. Do not publish the unredacted original.
