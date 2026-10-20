@@ -13,7 +13,7 @@ window.portfolioContent = {
       contribution: 'Built the product workflows and developed the white-label approach for client-specific branding.',
       focus: 'Conductor and admin flows, independent branding, and ongoing product maintenance.',
       tags: ['Mobile application', 'Firebase', 'White-label architecture'],
-      video: null,
+      video: { type: 'mp4', src: 'assets/condux-demo.mp4' },
       link: null, linkLabel: null
     },
     {
