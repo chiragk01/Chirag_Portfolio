@@ -4,7 +4,7 @@
 window.portfolioContent = {
   email: 'chiragkumar.rmdssoe.comp@gmail.com',
   linkedIn: 'https://www.linkedin.com/in/chirag-kumar-b5818b265/',
-  resume: null,
+  resume: 'assets/Chirag_AI.pdf',
   projects: [
     {
       name: 'Condux', category: 'product', categoryLabel: 'Product engineering',
