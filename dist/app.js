@@ -92,7 +92,9 @@ const actions = document.getElementById('contact-actions');
 for (const [label, raw] of [['LinkedIn ↗', content.linkedIn], ['Download resume ↓', content.resume]]) {
   const href = safeLink(raw); if (!href) continue;
   const anchor = text('a', label, 'text-link'); anchor.href = href;
-  anchor.target = '_blank'; anchor.rel = 'noopener noreferrer'; actions.append(anchor);
+  anchor.target = '_blank'; anchor.rel = 'noopener noreferrer';
+  if (raw === content.resume) anchor.setAttribute('download', 'Chirag_Kumar_Resume.pdf');
+  actions.append(anchor);
 }
 if (content.email && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(content.email)) {
   const anchor = text('a', 'Email me ↗', 'text-link'); anchor.href = 'mailto:' + content.email; actions.append(anchor);

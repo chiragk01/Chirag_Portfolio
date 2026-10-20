@@ -2,8 +2,8 @@
 // video: { type: 'youtube', id: 'YOUR_VIDEO_ID' }
 // video: { type: 'mp4', src: 'assets/condux-demo.mp4' }
 window.portfolioContent = {
-  email: null,
-  linkedIn: null,
+  email: 'chiragkumar.rmdssoe.comp@gmail.com',
+  linkedIn: 'https://www.linkedin.com/in/chirag-kumar-b5818b265/',
   resume: null,
   projects: [
     {
