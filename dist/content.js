@@ -7,6 +7,18 @@ window.portfolioContent = {
   resume: 'assets/Chirag_AI.pdf',
   projects: [
     {
+      name: 'Customer Analytics Lakehouse', category: 'data', categoryLabel: 'Data engineering',
+      status: 'Learning / POC', stageName: 'Lakehouse / ETL',
+      stageLabel: 'DATABRICKS · DATA FACTORY · DELTA',
+      description: 'A learning project exploring customer and order analytics with PySpark notebooks, Delta tables, and Azure Data Factory orchestration.',
+      contribution: 'Implemented cleaning, normalization, deduplication, audit columns, and partitioned Delta writes. ADF definitions coordinate customer, product, order, and order-item transformations before Gold analytics.',
+      focus: 'Customer recency/frequency/spend metrics, rule-based segmentation, and product-pair support, confidence, and lift. A separate LLM orchestration POC generates PySpark notebooks, creates dependent Databricks job tasks, triggers runs, and polls results. Cloud execution has not been independently verified for this portfolio.',
+      tags: ['Azure Databricks', 'PySpark', 'Delta Lake', 'Azure Data Factory', 'ADLS', 'SQL'],
+      video: null,
+      link: null, linkLabel: null
+    },
+
+    {
       name: 'Condux', category: 'product', categoryLabel: 'Product engineering',
       status: 'In production', stageLabel: 'BUS TICKETING · WHITE LABEL',
       description: 'A bus-ticketing application with conductor and admin workflows, designed to support independently branded client applications.',

@@ -48,8 +48,8 @@ for (const project of content.projects) {
   const article = document.createElement('article');
   article.className = 'project'; article.dataset.category = project.category;
   const stage = document.createElement('div');
-  stage.className = 'video-stage ' + (project.category === 'product' ? 'condux' : 'rag');
-  stage.append(text('span', project.category === 'product' ? 'Condux' : 'Knowledge / AI', 'stage-name'));
+  stage.className = 'video-stage ' + (project.category === 'product' ? 'condux' : project.category === 'data' ? 'data' : 'rag');
+  stage.append(text('span', project.stageName || (project.category === 'product' ? 'Condux' : 'Knowledge / AI'), 'stage-name'));
   stage.append(text('span', project.stageLabel, 'stage-sub')); attachVideo(stage, project);
   const info = document.createElement('div');
   const meta = text('div', project.categoryLabel, 'project-meta');
