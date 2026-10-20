@@ -25,7 +25,7 @@ window.portfolioContent = {
       contribution: 'Demonstrated Data Factory Git integration and repository configuration, then walked through Azure DevOps service connections, variable groups, and deployment pipeline setup.',
       focus: 'Shows how ADF changes move from a development workflow toward controlled deployment. This is a demonstration of configuration and delivery concepts, not a claim of production deployment.',
       tags: ['Azure Data Factory', 'Azure DevOps', 'Git integration', 'CI/CD', 'Deployment pipelines'],
-      video: null,
+      video: { type: 'mp4', src: 'assets/adf-devops-professional-review.mp4' },
       link: null, linkLabel: null
     },
     {
