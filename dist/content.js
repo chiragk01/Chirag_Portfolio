@@ -7,6 +7,16 @@ window.portfolioContent = {
   resume: 'assets/Chirag_AI.pdf',
   projects: [
     {
+      name: 'Service 360 — AI Security Automation', category: 'ai', categoryLabel: 'Enterprise AI & automation',
+      status: 'Enterprise use case', stageName: 'Security automation', stageLabel: 'FOUR WORKFLOWS · ONE PROJECT',
+      description: 'Agentic security automation across three security KPIs, unified through multi-agent orchestration.',
+      contribution: 'OSS: ~90% automation, days to 15–20 min. CodeQL: ~90% automation, 2–3 days to ~20 min. Vulnerability investigation: ~60–70% automation, days to 15–20 min.',
+      focus: 'Multi-agent orchestration coordinates all three KPI workflows, handling up to 10 action items in 1–2 hours versus days or weeks manually. Figures are approximate project estimates.',
+      tags: ['Agentic AI', 'Multi-Agent Orchestration', 'MCP', 'Azure DevOps', 'Security Automation'],
+      video: null,
+      link: null, linkLabel: null
+    },
+    {
       name: 'Enterprise Knowledge Assistant', category: 'ai', categoryLabel: 'AI & knowledge systems',
       status: 'In development', stageLabel: 'RETRIEVAL · EVIDENCE · CITATIONS',
       description: 'A local-first foundation for an enterprise knowledge assistant, using synthetic technical documents to make retrieved evidence traceable.',
