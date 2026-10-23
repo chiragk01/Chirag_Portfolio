@@ -1,13 +1,10 @@
-// Edit this file to add your actual video, resume, and contact links.
-// video: { type: 'youtube', id: 'YOUR_VIDEO_ID' }
-// video: { type: 'mp4', src: 'assets/condux-demo.mp4' }
 window.portfolioContent = {
   email: 'chiragkumar.rmdssoe.comp@gmail.com',
   linkedIn: 'https://www.linkedin.com/in/chirag-kumar-b5818b265/',
   resume: 'assets/Chirag_AI.pdf',
   projects: [
     {
-      name: 'Service 360 — AI Security Automation', category: 'ai', categoryLabel: 'Enterprise AI & automation',
+      name: 'Service 360 — AI Security Automation', category: 'ai', categoryLabel: 'Enterprise AI use case',
       status: 'Enterprise use case', stageName: 'Security automation', stageLabel: 'FOUR WORKFLOWS · ONE PROJECT',
       description: 'Agentic security automation across three security KPIs, unified through multi-agent orchestration.',
       contribution: 'OSS: ~90% automation, days to 15–20 min. CodeQL: ~90% automation, 2–3 days to ~20 min. Vulnerability investigation: ~60–70% automation, days to 15–20 min.',
@@ -17,7 +14,7 @@ window.portfolioContent = {
       link: null, linkLabel: null
     },
     {
-      name: 'Enterprise Knowledge Assistant', category: 'ai', categoryLabel: 'AI & knowledge systems',
+      name: 'Enterprise Knowledge Assistant', category: 'ai', categoryLabel: 'Enterprise AI use case',
       status: 'In development', stageLabel: 'RETRIEVAL · EVIDENCE · CITATIONS',
       description: 'A local-first foundation for an enterprise knowledge assistant, using synthetic technical documents to make retrieved evidence traceable.',
       contribution: 'Developing ingestion, persistent indexing, permission-filtered retrieval, API endpoints, and an evidence-viewing interface.',
