@@ -8,23 +8,19 @@
 
 AI & Automation Engineer at **LTIMindtree**, focused on solving operational engineering problems through AI-assisted automation, security workflows, and multi-agent systems.
 
-## Enterprise AI Use Cases — Service 360
+## Projects & AI Use Cases
 
-| Use case | Outcome |
-| --- | --- |
-| **OSS vulnerability remediation** | ~90% automation of dependency remediation and validation, reducing days of manual effort to **15–20 minutes**. |
-| **CodeQL security remediation** | ~90% automation of security fixes and PR preparation, reducing **2–3 days to ~20 minutes**. |
-| **Security vulnerability investigation** | ~60–70% automation of investigation and triage; reducing days of analysis to **15–20 minutes** per action item. |
-| **Multi-agent security orchestration** | Coordinated the three KPI workflows to handle **up to 10 action items in 1–2 hours**, versus days or weeks manually. |
+1. **Service 360 — AI Security Automation** — One enterprise project covering four connected workstreams:
+   - **OSS security:** ~90% automation, reducing days of manual effort to 15–20 minutes.
+   - **CodeQL:** ~90% automation, reducing 2–3 days to about 20 minutes.
+   - **Vulnerability investigation:** ~60–70% automation, reducing days to 15–20 minutes per action item.
+   - **Multi-agent orchestration:** Coordinates all three KPI workflows, handling up to 10 action items in 1–2 hours versus days or weeks of manual effort.
+2. **Enterprise Knowledge Assistant** — In-development local-first document retrieval, permission-filtered search, evidence, and citations; broader LLM functionality is planned.
+3. **Customer Analytics Lakehouse** — Learning/POC using Databricks, PySpark, Delta Lake, and Bronze–Silver–Gold transformations.
+4. **Azure Data Factory CI/CD with Azure DevOps** — Git integration, service connections, variable groups, and deployment-pipeline walkthrough. [Watch the demo](https://chirag-portfolio-gules.vercel.app/#work).
+5. **Condux** — In-production white-label bus ticketing with conductor/admin workflows. [Watch the demo](https://chirag-portfolio-gules.vercel.app/#work).
 
-*Reported impact figures are approximate estimates. Client-specific implementation details are intentionally excluded.*
-
-## Other Projects
-
-1. **Enterprise Knowledge Assistant** — In-development local-first document retrieval, evidence, citations, and permission-filtered search; broader LLM functionality is planned.
-2. **Customer Analytics Lakehouse** — Azure Databricks, PySpark, Delta Lake, and Bronze–Silver–Gold data transformations. Learning/POC; future AI use cases are not represented as complete.
-3. **Azure Data Factory CI/CD with Azure DevOps** — A learning demonstration of ADF Git integration, repository setup, service connections, variable groups, and deployment pipelines. Includes a [video on the portfolio](https://chirag-portfolio-gules.vercel.app/#work).
-4. **Condux** — In-production white-label bus-ticketing product with conductor/admin workflows and a [product demo](https://chirag-portfolio-gules.vercel.app/#work).
+*Security automation metrics are approximate, user-reported project estimates. Private implementation details are not shared.*
 
 ## Core Technologies
 
