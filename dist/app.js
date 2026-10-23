@@ -17,7 +17,6 @@ function attachVideo(stage, project) {
   const isYouTube = video?.type === 'youtube' && /^[a-zA-Z0-9_-]{11}$/.test(video.id || '');
   const mp4 = video?.type === 'mp4' ? safeLink(video.src) : null;
   if (!isYouTube && !mp4) {
-    stage.append(text('span', 'Demo video will be added here', 'video-note'));
     return;
   }
   const play = text('button', '▶ Watch demo', 'play');
