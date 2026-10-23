@@ -1,55 +1,42 @@
 # Chirag Kumar | AI & Automation Engineer
 
-**Building practical AI systems, enterprise automation workflows, data pipelines, and software products.**
+**Real-world AI use cases, agentic workflows, and measurable engineering outcomes.**
 
-[**Live Portfolio**](https://chirag-portfolio-gules.vercel.app/) · [**LinkedIn**](https://www.linkedin.com/in/chirag-kumar-b5818b265/) · [**GitHub**](https://github.com/chiragk01)
+[Live Portfolio](https://chirag-portfolio-gules.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/chirag-kumar-b5818b265/) · [GitHub](https://github.com/chiragk01)
 
----
+## About
 
-## About Me
+AI & Automation Engineer at **LTIMindtree**, focused on solving operational engineering problems through AI-assisted automation, security workflows, and multi-agent systems.
 
-I'm an AI & Automation Engineer at **LTIMindtree**, working on engineering automation and AI-assisted security remediation for a Microsoft client engagement. My work spans agent workflows, dependency and vulnerability remediation, software validation, and pull-request automation.
+## Enterprise AI Use Cases — Service 360
 
-Beyond enterprise engineering, I build projects in **Azure data engineering, retrieval-based AI applications, and product development**. This portfolio brings together selected professional experience, personal projects, and video demonstrations.
+| Use case | Outcome |
+| --- | --- |
+| **OSS vulnerability remediation** | ~90% automation of dependency remediation and validation, reducing days of manual effort to **15–20 minutes**. |
+| **CodeQL security remediation** | ~90% automation of security fixes and PR preparation, reducing **2–3 days to ~20 minutes**. |
+| **Security vulnerability investigation** | ~60–70% automation of investigation and triage; reducing days of analysis to **15–20 minutes** per action item. |
+| **Multi-agent security orchestration** | Coordinated the three KPI workflows to handle **up to 10 action items in 1–2 hours**, versus days or weeks manually. |
 
-## Professional Experience
+*Reported impact figures are approximate estimates. Client-specific implementation details are intentionally excluded.*
 
-**AI & Automation Engineer — LTIMindtree | Microsoft client engagement**
+## Other Projects
 
-- **OSS dependency remediation:** Agent-assisted investigation and upgrades of vulnerable NuGet/npm dependencies, with build validation and pull-request preparation.
-- **CodeQL remediation:** Workflows that consume existing security findings, apply targeted code fixes, and validate changes before review.
-- **S360 vulnerability workflows:** AI-assisted investigation and coordination of remediation for reported security issues.
-- **Orchestration:** Connecting issue intake, remediation, build checks, and pull-request workflows with controlled validation steps.
+1. **Enterprise Knowledge Assistant** — In-development local-first document retrieval, evidence, citations, and permission-filtered search; broader LLM functionality is planned.
+2. **Customer Analytics Lakehouse** — Azure Databricks, PySpark, Delta Lake, and Bronze–Silver–Gold data transformations. Learning/POC; future AI use cases are not represented as complete.
+3. **Azure Data Factory CI/CD with Azure DevOps** — A learning demonstration of ADF Git integration, repository setup, service connections, variable groups, and deployment pipelines. Includes a [video on the portfolio](https://chirag-portfolio-gules.vercel.app/#work).
+4. **Condux** — In-production white-label bus-ticketing product with conductor/admin workflows and a [product demo](https://chirag-portfolio-gules.vercel.app/#work).
 
-*Descriptions are high-level; confidential client source code and internal operational details are not included.*
+## Core Technologies
 
-## Featured Projects
+**AI & automation:** Python, Agentic AI, multi-agent orchestration, MCP, LLM applications, FastAPI
 
-| Project | What it demonstrates | Status |
-| --- | --- | --- |
-| **Azure Data Factory CI/CD with Azure DevOps** | ADF Git integration, repository configuration, service connections, variable groups, and CI/CD deployment-pipeline setup. [Watch on portfolio](https://chirag-portfolio-gules.vercel.app/#work) | Learning / POC · Video available |
-| **Customer Analytics Lakehouse** | Azure Data Factory orchestration and Azure Databricks/PySpark Bronze–Silver–Gold data transformations, with Delta Lake analytics. | Learning / POC |
-| **Condux** | A white-label bus-ticketing application with conductor and admin workflows, Firebase integration, and client-specific branding. [Watch on portfolio](https://chirag-portfolio-gules.vercel.app/#work) | In production · Video available |
-| **Enterprise Knowledge Assistant** | Local-first retrieval with document ingestion, BM25 search, source citations, and an evolving knowledge-assistant API. | In development |
+**Security & delivery:** Azure DevOps, CodeQL, security remediation automation, Git, CI/CD
 
-The ADF/DevOps recording is a **learning demonstration**, not a claim of a production CI/CD deployment. Project statuses reflect the scope presented in the portfolio.
+**Data & product:** Azure Data Factory, Azure Databricks, PySpark, Delta Lake, ADLS, Firebase
 
-## Technologies
+## Portfolio
 
-**AI & automation:** Python, agent workflows, LLM applications, FastAPI, MCP, security-remediation automation
-
-**Cloud & data:** Azure, Azure Data Factory, Azure DevOps, Azure Databricks, PySpark, Delta Lake, ADLS
-
-**Development & delivery:** Git, CI/CD, Docker, APIs, Firebase, JavaScript
-
-## Portfolio Website
-
-The portfolio is a responsive, static website deployed through **Vercel** from this GitHub repository. It features professional experience, filterable project cards, inline video demos, contact links, and a downloadable resume.
-
-**[Explore the live portfolio →](https://chirag-portfolio-gules.vercel.app/)**
-
-This repository contains the **portfolio website**, not the private source code of the enterprise/client systems or standalone products it showcases.
+The [live portfolio](https://chirag-portfolio-gules.vercel.app/) hosts short use-case summaries and selected project demos. This repository contains the public portfolio website—not private enterprise/client code or the standalone application source repositories.
 
 ---
-
-*Designed to showcase engineering work through clear explanations, practical outcomes, and working demonstrations.*
+**Practical AI. Measurable outcomes.**
